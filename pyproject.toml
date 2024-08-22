@@ -2,6 +2,7 @@
 name = "Name of project"
 description = "Description of project"
 author = "Michael E. Rose"
+readme = "README.md"
 requires-python = "=3.11"
 classifiers = [
 	"License :: OSI Approved :: MIT License"

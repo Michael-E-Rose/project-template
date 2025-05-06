@@ -2,7 +2,7 @@ This is a project template! Rewrite this read-me to fit to your project.
 
 The current setup is geared towards the recommendations by J. Shapiro and M. Gentzkow in "[Code and Data for the Social Sciences: A Practitioner's Guide](https://web.stanford.edu/%7Egentzkow/research/CodeAndData.pdf)". They recommend these main folders:
 1. input (for input files not to be touched)
-2. temp (for temporary outputs, optional for most languages)
+2. intermed (for intermediary outputs, optional for most languages)
 3. output (for all kinds of output files for the manuscript)
 They also recommend a fourth folder for scripts. However, this creates unncessary complexity when reading central configuration files. This did not occur to the authors as they had only Stata in mind.
 Instead, place all scripts in the root folder, and use numbers to enforce ordering. The numbers should indicate the order in which steps should be executed. For scripts with intermediary output, use folders with corresponding numbers. Since Python cannot import from scripts starting with numbers, it is advisable to prepend the file names with say an underscore. Do the same for scripts of other languages to keep the ordering.
